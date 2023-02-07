@@ -23,7 +23,7 @@
   <project path="art" name="android_art" groups="pdk" remote="awaken" />
 
   <!-- Rootdir -->
-  <project path="bionic" name="android_bionic" groups="pdk" remote="awaken" />
+  <project path="bionic" name="leddaz-stuff/awaken_bionic" groups="pdk" remote="github" revision="triton" />
   <project path="manifest" name="android_manifest" remote="awaken" />
 
   <!-- Bootable -->
@@ -39,7 +39,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="awaken" >
+  <project path="build/soong" name="leddaz-stuff/awaken_build_soong" groups="pdk,tradefed" remote="github" revision="triton" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -58,10 +58,14 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="awaken" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="awaken" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+  <project path="frameworks/av" name="leddaz-stuff/awaken_frameworks_av" groups="pdk" remote="github" revision="triton" />
+  <project path="frameworks/base" name="leddaz-stuff/awaken_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="triton" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="leddaz-stuff/awaken_hardware_interfaces" remote="github" revision="triton" />
+  <project path="hardware/xiaomi" name="leddaz-stuff/android_hardware_xiaomi" remote="github" revision="triton" />
 
   <!-- Packages -->
   <project path="packages/apps/AwakenWallpaperStub" name="android_packages_apps_AwakenWallpaperStub" remote="awaken" />
@@ -90,7 +94,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="awaken" />
 
   <!-- Vendor -->
-  <project path="vendor/awaken" name="android_vendor_awaken" remote="awaken" />
+  <project path="vendor/awaken" name="leddaz-stuff/android_vendor_awaken" remote="github" revision="triton" />
   <project path="vendor/gms" name="android_vendor_gms" remote="awaken-gitlab" clone-depth="1" />
 
   <!-- ProtonAosp -->
