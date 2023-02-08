@@ -95,7 +95,7 @@
 
   <!-- Vendor -->
   <project path="vendor/awaken" name="leddaz-stuff/android_vendor_awaken" remote="github" revision="triton" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="awaken-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="LeddaZ/android_vendor_gms" remote="gitlab" revision="triton" clone-depth="1" />
 
   <!-- ProtonAosp -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk" remote="github" revision="main" />
