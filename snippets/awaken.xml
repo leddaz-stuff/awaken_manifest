@@ -23,7 +23,7 @@
   <project path="art" name="android_art" groups="pdk" remote="awaken" />
 
   <!-- Rootdir -->
-  <project path="bionic" name="leddaz-stuff/awaken_bionic" groups="pdk" remote="github" revision="triton" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="awaken" />
   <project path="manifest" name="android_manifest" remote="awaken" />
 
   <!-- Bootable -->
@@ -58,13 +58,12 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="awaken" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="leddaz-stuff/awaken_frameworks_av" groups="pdk" remote="github" revision="triton" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="awaken" />
   <project path="frameworks/base" name="leddaz-stuff/awaken_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="triton" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="awaken" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="leddaz-stuff/awaken_hardware_interfaces" remote="github" revision="triton" />
   <project path="hardware/xiaomi" name="leddaz-stuff/android_hardware_xiaomi" remote="github" revision="triton" />
 
   <!-- Packages -->
